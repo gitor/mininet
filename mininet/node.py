@@ -1307,4 +1307,3 @@ class NAT( Node ):
         self.cmd( 'sysctl net.ipv4.ip_forward=0' )
 
         super( NAT, self ).terminate()
-
